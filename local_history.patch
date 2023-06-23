@@ -1,0 +1,14 @@
+Index: main.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/main.py b/main.py
+--- a/main.py	
++++ b/main.py	(date 1687551605069)
+@@ -9,4 +9,4 @@
+     print(f"Today, {weekday}, I`m glad to welcome you {name}")
+ 
+ 
+-say_hello('Alexander')
++say_hello(name='Alexander')
